@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-fs.readFileSync(filename, function (err, data) {
+fs.readFileSync('index.html', function (err, data) {
   if (err) throw err;
 /*  console.log(data);*/
 
